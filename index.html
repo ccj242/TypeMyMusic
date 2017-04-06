@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>TypeMyMusic | Font for Composing Music | Free Download</title>
+    <meta name="description" content="TypeMyMusic is a free downloadable music composing font which is an easy to use alternative to Sibelius and Finale.">
+    <meta name="keywords" content="TypeMyMusic, Music Font, Composing Font, Music Text">
+  <meta name="author" content="TypeMyMusic">
+    <meta property="og:title" content="TypeMyMusic" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.typemymusic.com" />
+  <meta property="og:image" content="http://typemymusic.com/img/logo.png" />
+  <meta property="og:description" content="TypeMyMusic is a free downloadable music composing font which is an easy to use alternative to Sibelius and Finale." />
+
+    
+
+
+    <!-- IF using Sass (run gulp sass first), then remove the CSS include above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+<!--
+    <script type="text/javascript" src="https://app-cdn.simplegoods.co/assets/external/embed.js"></script>
+-->
+
+  </head>
+
+
+     
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+
+
+
+
+  <style>
+
+  body {background-color:white}
+
+  h1 {font-size:4vmin;float:left;width:100%;line-height:1.5;z-index:-1000}
+  h2 {font-size:3vmin;float:left;width:100%;line-height:1.5;z-index:-1000}
+  h3 {text-align:center;font-size:10px;z-index:-1000}
+
+     @font-face{
+    font-family: "tmm";
+    src: url("TypeMyMusic_1.1.ttf");
+  }
+
+.scroll{
+ -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+html{
+  max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.modal{
+  top: 0 ;
+  bottom: 0 ; 
+  left: 0 ;
+  right: 0 ;
+  width: 100% ;
+}
+
+body{
+background: url(img/background.jpg) repeat; 
+background-size: 140px;
+background-color: rgba(255, 255, 255, 1);
+max-width: 100%;
+    overflow-x: hidden;
+
+
+}
+
+#syn:hover {cursor:pointer}
+.pointer:hover {cursor:pointer}
+
+
+
+  </style>
+  <body ng-app="starter" ng-controller="AppCtrl">
+
+  <div ng-if="fullscreen" style="position:absolute;width:100%;height:2000px;background:white;z-index:9999">
+  <div ng-click="fullscreenclose" style="position:absolute;right:10px">
+<i ng-click="closepopup()" style="font-size:30px" class="icon ion-home"></i>
+<i ng-click="download()" style="font-size:30px;padding-left:20px" class="icon ion-android-download"></i>
+<i ng-click="github()" style="font-size:30px;padding-left:20px" class="icon ion-social-octocat"></i>
+<i ng-click="print()" style="font-size:30px;padding-left:20px;padding-right:5px" class="icon ion-printer"></i>
+
+</div>
+<br><br><br>
+    <textarea id="musicsand" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="           `    k  ,     ¡       •    ,  7 % ^ 7 8 ,   ¡      §       ,     ﬁ         ." style="margin-top:-80px;font-size:100px;width:100%;padding-left:0px;font-family:'tmm';background:transparent;line-height:117px;height:1850px !important"></textarea>
+     <div style="text-align:center">
+<i ng-click="closepopup()" style="font-size:30px" class="icon ion-home"></i>
+<i ng-click="download()" style="font-size:30px;padding-left:20px" class="icon ion-android-download"></i>
+<i ng-click="github()" style="font-size:30px;padding-left:20px" class="icon ion-social-octocat"></i>
+<i ng-click="print()" style="font-size:30px;padding-left:20px;padding-right:5px" class="icon ion-printer"></i>
+
+</div>
+  </div>
+
+<!--
+    <ion-pane>
+      <ion-content overflow-scroll="true">
+   -->  
+    <br>
+    <div style="float:right;z-index:1000; top:-29px;padding-right:13px">
+     <br><a href="http://www.facebook.com/typemymusic" target="_blank"><img class="pointer" src="img/2.svg" alt="TypeMyMusic Facebook" style="width:42px"></a><br>
+      <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20best%20music%20notation%20font%20on%20the%20web,%20TypeMyMusic!%20www.typemymusic.com" target="_blank"><img class="pointer" src="img/1.svg" alt="TypeMyMusic Twitter" style="width:42px"></a>
+      <br>
+    <img ng-click="synonymy()" class="pointer" src="img/128.png" alt="Synonymy" style="width:42px">
+    <br>
+   <a href="https://www.youtube.com/embed/2rI_em4MscE?rel=0&autoplay=1" target="_blank"><img class="pointer" src="img/birds.png" alt="The Birds Upstairs" style="width:42px">
+ <br></a>
+    
+       <a href="http://www.iconicpasswords.com" target="_blank"><img class="pointer" src="img/iconic.png" alt="Iconic Passwords" style="width:42px"></a>
+</div>
+    <div style="text-align:center;position:relative;left:35px;z-index:-1000">
+    <img src="img/logo.png" alt="TypeMyMusic Logo" style="width:70%;max-width:600px">
+    </div>
+    <!--
+      <div style="text-align:center">
+    <img src="img/heyjude.png" alt="TypeMyMusic Example" style="width:100%;">
+    </div>
+    -->
+       <textarea id="music" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="           `    k  ,     ¡       •    ,  7 % ^ 7 8 ,   ¡      §       ,     ﬁ         ." style="font-size:7vw;width:100%;padding-left:10px;font-family:'tmm';background:transparent;margin-top:-45px !important;white-space: nowrap"></textarea>
+
+<div style="text-align:center;z-index:1000;margin-top:-20px !important">
+<span style="font-size:12px"><b>Click on the music above to demo the font!</b></span><br>
+    <button class="button button-balanced ion-android-download" style="width:50%;max-width:300px" ng-click="download()">
+  <strong>Download Free Font</strong> <span style="font-size:12px">.ttf</span>
+</button>
+
+ <button class="button button-balanced ion-arrow-expand" style="width:50%;max-width:300px;background-color:#4286f4" ng-click="fullscreenpop()">
+  <strong>FullScreen Demo</strong> <span style="font-size:12px">html</span>
+</button>
+
+
+
+
+</div>
+
+<!--
+<div style="text-align:center;font-size:10px;z-index:-1000">
+ Copyright Christopher Cinq-Mars Jarvis 2015
+
+</div>
+-->
+<div style="font-size:2vmin !important;float:left;width:50%;line-height:1.5;z-index:-1000;text-indent:15px;margin-left:10px" class="padding">
+
+<h1 style="font-size:4vmin !important" ><br><strong>TypeMyMusic</strong> is the best, free, music composing font on the web.</h1><h2 style="font-size:3.5vmin !important">Compose scores, even ones with a grand staff, in your favorite text-editor of choice. Ideal for hobbyists and students alike looking for a free, easy to learn, easy to use alternative to Sibelius and Finale. Developed by <u><span class="pointer" ng-click="jarvisfilms()" style="color:blue">Christopher Cinq-Mars Jarvis </span></u> and music teacher Jocelyn Kraus. All notation on the site was created using our font. Try our demo <u><span class="pointer" ng-click="fullscreenpop()" style="color:blue">here</span></u>!</h2></div>
+
+ <div style="float:right;width:43%;position:relative;left:3%;top:-50px;z-index:-1000">
+    <img src="img/example.png" alt="TypeMyMusic Example2" style="width:600px">
+    </div>
+
+ <div style="text-align:center;position:relative;top:-40px;z-index:-1000">
+    <img src="img/chart.png" alt="TypeMyMusic Mapping" style="width:95%">
+    </div>
+<div style="text-align:center;z-index:1000;padding-top:-40px !important">
+<h2 style="font-size:17px">See <strong>full </strong>keyboard mapping: <a href="img/KeyboardMapping.jpg">here</a></h2>
+    
+    
+
+    <button class="button button-balanced ion-android-download" style="width:60%;max-width:700px" ng-click="download()">
+  <b>Direct Download Font</b> <span style="font-size:12px">.ttf</span>
+</button>
+
+
+<br><br>
+    <div style="text-align:center;font-size:18px">
+   also check out:
+   </div>
+
+   <br>
+
+   <div id="syn" style="text-align:center;font-size:18px;float:left;width:45%" ng-click="synonymy()">
+    <h2 style="font-size:18px"><strong>Synonymy</strong>: a new word game narrated by Richard Dawkins </h2>
+   <br><br>
+   <img src="img/512.png" alt="Synonymy" style="width:150px">
+   <br>
+
+<img src="img/osx_icon.svg" alt="Synonymy OSX" style="width:30px">
+<img src="img/apple_icon.svg" alt="Synonymy iOS" style="width:30px">
+<img src="img/android_icon.svg" alt="Synonymy Android" style="width:30px">
+<img src="img/windows_icon.svg" alt="Synonymy Windows" style="width:30px">
+
+  </div> 
+<a href="http://www.iconicpasswords.com" target="_blank">
+      <div class="padding" style="float:right;text-align:center;font-size:18px; width:45%">
+      <h2 style="font-size:18px"><strong>IconicPasswords</strong>: a new app that makes passwords safer and easier than ever before!</h2>
+   <br><br>
+<img src="img/IconicPasswords.png" alt="Iconic Passwords" style="width:350px">
+
+    </div>
+</a>
+   
+
+
+
+
+<div style="text-align:center;font-size:10px;z-index:-1000;width:100%;margin-top:280px"><h3 style="font-size:10px">
+ &copy;  2015 - TypeMyMusic.com / Christopher Cinq-Mars Jarvis - All Rights Reserved <br>TypeMyMusic is free and non-profit, as is Synonymy.</h3>
+
+ </div>
+</div>
+<!--
+      </ion-content>
+    </ion-pane>
+-->
+
+
+
+  </body>
+
+<!---->
+<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js--> 
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+
+
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5612e4fa626c300f" async="async"></script>
+
+<script>
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68995216-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
